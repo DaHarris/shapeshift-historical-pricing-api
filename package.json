@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_CONFIG_DIR=\"./node_modules/shapeshift-common-library/config\" node server.js"
+    "start": "NODE_CONFIG_DIR=\"./node_modules/shapeshift-common-library/config\" node server.js",
+    "dropDB": "NODE_CONFIG_DIR=\"./node_modules/shapeshift-common-library/config\" node database/drop.js"
   },
   "repository": {
     "type": "git",
